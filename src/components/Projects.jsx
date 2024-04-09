@@ -1,4 +1,5 @@
 import React from "react";
+import I from "../assets/iS.png";
 
 export const Projects = () => {
   return (
@@ -11,7 +12,7 @@ export const Projects = () => {
         <div className="grid project-container">
           <div className="project-card">
             <div className="top">
-              <img src="./assets/is.png" alt="" width="100%" />
+              <img src={I} alt="" width="100%" />
             </div>
             <div className="bottom container">
               <div className="links">
@@ -29,7 +30,7 @@ export const Projects = () => {
           </div>
           <div className="project-card">
             <div className="top">
-              <img src="./assets/iS.png" alt="" width="100%" />
+              <img src={I} alt="" width="100%" />
             </div>
             <div className="bottom container">
               <div className="links">
@@ -47,7 +48,7 @@ export const Projects = () => {
           </div>
           <div className="project-card">
             <div className="top">
-              <img src="./assets/iS.png" alt="" width="100%" />
+              <img src={I} alt="" width="100%" />
             </div>
             <div className="bottom container">
               <div className="links">
@@ -66,7 +67,7 @@ export const Projects = () => {
 
           <div className="project-card">
             <div className="top">
-              <img src="./assets/iS.png" alt="" width="100%" />
+              <img src={I} alt="" width="100%" />
             </div>
             <div className="bottom container">
               <div className="links">
