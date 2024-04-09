@@ -1,3 +1,6 @@
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
+
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { Banner } from "./components/Banner";
@@ -18,12 +21,14 @@ function App() {
       <input type="checkbox" id="darkMode" />
       <div className="wrapper">
         <Navbar />
-        <Hero />
-        <Banner />
-        <Skills />
-        <Projects />
-        <Aboutme />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="banner" element={<Banner />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="aboutme" element={<Aboutme />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
         <Footer />
       </div>
     </>
