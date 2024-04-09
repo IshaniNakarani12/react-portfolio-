@@ -1,27 +1,25 @@
-import navbar from "./components/navbar";
-import hero from "./components/hero";
-import banner from "./components/banner";
-import skills from "./components/skills";
-import projects from "./components/projects";
-import aboutme from "./components/aboutme";
-import contact from "./components/contact";
-import footer from "./components/footer";
+import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero";
+import { Banner } from "./components/Banner";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Aboutme } from "./components/Aboutme";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <navbar />
-      <hero />
-      <banner />
-      <skills />
-      <projects />
-      <aboutme />
-      <contact />
-      <footer />
+      <Navbar />
+      <Hero />
+      <Banner />
+      <Skills />
+      <Projects />
+      <Aboutme />
+      <Contact />
+      <Footer />
     </>
   );
 }

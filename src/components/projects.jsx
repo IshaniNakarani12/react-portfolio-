@@ -1,62 +1,62 @@
 import React from "react";
 
-const projects = () => {
+export const Projects = () => {
   return (
     <div>
-      <section class="projects container" id="projects">
-        <h2 class="title">
+      <section className="projects container" id="projects">
+        <h2 className="title">
           <span>My Projects</span>
         </h2>
 
-        <div class="grid project-container">
-          <div class="project-card">
-            <div class="top">
+        <div className="grid project-container">
+          <div className="project-card">
+            <div className="top">
               <img src="./assets/is.png" alt="" width="100%" />
             </div>
-            <div class="bottom container">
-              <div class="links">
+            <div className="bottom container">
+              <div className="links">
                 <a href="">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
 
                 <a href="">
-                  <i class="fa-brands fa-chrome"></i>
+                  <i className="fa-brands fa-chrome"></i>
                 </a>
               </div>
               <h3>Personal portfolio</h3>
               <p>Techstack: HTML, CSS, Javascript, React</p>
             </div>
           </div>
-          <div class="project-card">
-            <div class="top">
+          <div className="project-card">
+            <div className="top">
               <img src="./assets/iS.png" alt="" width="100%" />
             </div>
-            <div class="bottom container">
-              <div class="links">
+            <div className="bottom container">
+              <div className="links">
                 <a href="">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
 
                 <a href="">
-                  <i class="fa-brands fa-chrome"></i>
+                  <i className="fa-brands fa-chrome"></i>
                 </a>
               </div>
               <h3>Personal portfolio</h3>
               <p>Techstack: HTML, CSS, Javascript, React</p>
             </div>
           </div>
-          <div class="project-card">
-            <div class="top">
+          <div className="project-card">
+            <div className="top">
               <img src="./assets/iS.png" alt="" width="100%" />
             </div>
-            <div class="bottom container">
-              <div class="links">
+            <div className="bottom container">
+              <div className="links">
                 <a href="">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
 
                 <a href="">
-                  <i class="fa-brands fa-chrome"></i>
+                  <i className="fa-brands fa-chrome"></i>
                 </a>
               </div>
               <h3>Personal portfolio</h3>
@@ -64,18 +64,18 @@ const projects = () => {
             </div>
           </div>
 
-          <div class="project-card">
-            <div class="top">
+          <div className="project-card">
+            <div className="top">
               <img src="./assets/iS.png" alt="" width="100%" />
             </div>
-            <div class="bottom container">
-              <div class="links">
+            <div className="bottom container">
+              <div className="links">
                 <a href="">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
 
                 <a href="">
-                  <i class="fa-brands fa-chrome"></i>
+                  <i className="fa-brands fa-chrome"></i>
                 </a>
               </div>
               <h3>Personal portfolio</h3>
@@ -87,5 +87,3 @@ const projects = () => {
     </div>
   );
 };
-
-export default projects;

@@ -1,34 +1,34 @@
 import React from "react";
 
-const contact = () => {
+export const Contact = () => {
   return (
     <div>
-      <section class="contact" id="contact">
-        <h2 class="title">
+      <section className="contact" id="contact">
+        <h2 className="title">
           <span>Contact</span>
         </h2>
 
-        <div class="flex social">
+        <div className="flex social">
           <a href="">
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
           <a href="">
-            <i class="fa-brands fa-youtube"></i>
+            <i className="fa-brands fa-youtube"></i>
           </a>
           <a href="">
-            <i class="fa-solid fa-mobile"></i>
+            <i className="fa-solid fa-mobile"></i>
           </a>
         </div>
         <h3>OR</h3>
 
-        <div class="flex-center">
-          <a href="" class="email-section flex-center">
+        <div className="flex-center">
+          <a href="" className="email-section flex-center">
             <span>ishani@gmail.com</span>
-            <div class="email-icon flex-center">
-              <i class="fa-solid fa-paper-plane"></i>
+            <div className="email-icon flex-center">
+              <i className="fa-solid fa-paper-plane"></i>
             </div>
           </a>
         </div>
@@ -36,5 +36,3 @@ const contact = () => {
     </div>
   );
 };
-
-export default contact;

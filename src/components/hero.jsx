@@ -1,35 +1,30 @@
 import React from "react";
+import Ishani from "../assets/Ishani.jpg";
 
-const hero = () => {
+export const Hero = () => {
   return (
     <div>
-      <section class="hero-section container" id="hero">
-        <div class="grid hero">
-          <div class="left flex">
+      <section className="hero-section container" id="hero">
+        <div className="grid hero">
+          <div className="left flex">
             <div>
               Hi I'm <span>Ishani Nakarani</span>
             </div>
-            <div class="tag">Full Stack Developer</div>
+            <div className="tag">Full Stack Developer</div>
             <p>I love coding</p>
             <div>
               <a href="./assets/Ishani.jpg" download>
                 <button>
-                  Download CV <i class="fa-solid fa-download"></i>
+                  Download CV <i className="fa-solid fa-download"></i>
                 </button>
               </a>
             </div>
           </div>
-          <div class="right flex">
-            <img
-              src="./assets/Ishani.jpg"
-              alt="prem speaking"
-              style="height: 500px"
-            />
+          <div className="right flex">
+            <img src={Ishani} alt="" width="80%" />
           </div>
         </div>
       </section>
     </div>
   );
 };
-
-export default hero;
