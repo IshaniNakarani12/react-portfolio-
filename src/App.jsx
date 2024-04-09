@@ -12,14 +12,20 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Aboutme />
-      <Contact />
-      <Footer />
+      <label for="darkMode" className="dark-mode-togggler">
+        <i className="fa-solid fa-circle-half-stroke"></i>
+      </label>
+      <input type="checkbox" id="darkMode" />
+      <div className="wrapper">
+        <Navbar />
+        <Hero />
+        <Banner />
+        <Skills />
+        <Projects />
+        <Aboutme />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }
